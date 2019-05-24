@@ -1,0 +1,263 @@
+{
+  "steps": [
+    {   
+      "id": 1, 
+      "title": "Bienvenue", 
+      "answers" : [ 
+        {
+          "message": "continuer", 
+          "link": "/game/2" 
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tu es l’héritier des Lannister, souverain du Royaume des Sept Couronnes. Tu possède donc : une armée constituée de soldats loyaux et une arbalète géante capable de pouvoir tuer un dragon.",
+      "answers" : [
+        {
+          "message": "continuer",
+          "link":"/game/3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tu es l’héritier des Targaryens, roi des Andals et des premiers hommes protecteur du royaume. Tu possède donc :  une armée constituée d’immaculés et un dragon",
+      "answers" : [
+        {
+          "message": "continuer",
+          "link":"/game/3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pour accéder au throne de fer, il te faut remporter 2 batailles. Si tu échoue dans une bataille tu perdras la partie, alors fait les bons choix !",
+      "answers" : [
+        {
+          "message": "continuer",
+          "link":"/game/4"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": " Pour ta première mission tu dois choisir entre deux personnages pour t’accompagner dans ta conquête, préfère tu prendre :",
+      "answers": [
+        {
+          "message": "un chef militaire spécialiste dans les attaques en mélée",
+          "link": "/game/5"
+        },
+        {
+          "message": "un conseiller qui t’aidera dans t’es choix les plus importants",
+          "link": "/game/6"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": " Tu as donc choisis le chef militaire, ta première bataille va se dérouler, tu es devant que fait-tu :",
+      "answers": [
+        {
+          "message": "Attaquer le château",
+          "link": "/game/7"
+        },
+        {
+          "message": "convaincre leurs chef de se rendre",
+          "link": "/game/8"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Tu as donc choisis le conseiller, ta première bataille va se dérouler tu es devant un de leur château que fait-tu :",
+      "answers": [
+        {
+          "message": "attaquer avec toute ton armée",
+          "link": "/game/9"
+        },
+        {
+          "message": "convaincre leurs chef de se rendre",
+          "link": "/game/10"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": " Bravo, tu as gagner ta première bataille, grâce à ton chef militaire qui à fait une attaque incroyable. Tu gagnes donc 1 bataille.",
+      "answers": [
+        {
+          "message": "continuer",
+          "link": "/game/11"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Hélas, tu as perdu ta première bataille car tu n’avais pas de conseiller pour pouvoir correctement assiéger le château.",
+      "answers": [
+        {
+          "message": "FIN",
+          "link": "/Lose"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": " Hélas, tu as perdu ta première bataille car tu n’avais pas de chef militaire pour pouvoir guider ton armée et remporter la victoire.",
+      "answers": [
+        {
+          "message": "FIN",
+          "link": "/Lose"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bravo, tu as gagné ta première bataille car tu avais un conseiller pour convaincre leur roi de se rendre.",
+      "answers": [
+        {
+          "message": "continuer",
+          "link": "/game/11"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Pour ta deuxième mission, tu te rends à Portréal pour la bataille finale",
+      "answers": [
+        {
+          "message": "continuer",
+          "link": "/game/12"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sur la route, tu croises un homme mystérieux :",
+      "answers": [
+        {
+          "message": "tenter de le rallier à ta cause",
+          "link": "/game/13"
+        },
+        {
+          "message": "Passer son chemin",
+          "link": "/game/14"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Il s'avère que cette homme est le commandant d'une grande armée, après lui avoir partager tes ambitions, lui et son armée rejoignent tes rangs pour combattre, vous décidez de vous reposez avant de reprendre la route vers Portréal",
+      "answers": [
+        {
+          "message": "continuer",
+          "link": "/game/16"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Tu décides de faire une pause avant de lancer l'assaut vers Portréal pour que ton armée puisse se reposer :",
+      "answers": [
+        {
+          "message": "Attendre que le jour se lève et partir",
+          "link": "/game/15"
+        },
+        {
+          "message": "Partir pendant la nuit",
+          "link": "/game/16"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Pendant la nuit, l'homme mystérieux était un chef de guerre, il t'a attaqué furtivement et toute ton armée à été détruite",
+      "answers": [
+        {
+          "message": "FIN",
+          "link": "/lose"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Ton armée te remercie pour ce repos bien mérité ils sont prêt pour la bataille final",
+      "answers": [
+        {
+          "message": "continuer",
+          "link": "/game/17"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Te voila enfin devant les portes de Portréal, des archers recouvrent les hauts des murs, veux tu :",
+      "answers": [
+        {
+          "message": "attaquer avec des canons et des archers",
+          "link": "/game/18"
+        },
+        {
+          "message": "attaquer de front",
+          "link": "/game/19"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Tes canons et tes archers ont réussis à tuer tout les archers qui recouvraient le haut des murs de Portréal",
+      "answers": [
+        {
+          "message": "continuer",
+          "link": "/game/20"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "L'attaque de front n'étaient pas la meilleur des solutions, les archers ennemis ont tués tout tes soldats qui essayaient d'ouvrir les portes du château",
+      "answers": [
+        {
+          "message": "FIN",
+          "link": "/lose"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Ton armée réussie à ouvrir les portes de Portréal, mais des habitants sont présents dans la cité, que faire :",
+      "answers": [
+        {
+          "message": "Continuer l'attaque",
+          "link": "/game/21"
+        },
+        {
+          "message": "Mettre à l'abris les habitants",
+          "link": "/game/22"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Tes soldats tuent les habitants de la ville, ils prennent donc les armes et se rallient à l'ennemie, le surnombre fini par remporter la victoire",
+      "answers": [
+        {
+          "message": "FIN",
+          "link": "/lose"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Bravo, les habitants sont sains et sauf et les soldats ennemis déclarent forfait, l'usurpateur se fait trancher la tête. Te voilà roi des 7 courronnes",
+      "answers": [
+        {
+          "message": "S'asseoir sur le trône de fer",
+          "link": "/win"
+        }
+      ]
+    }
+  ]
+}
+
